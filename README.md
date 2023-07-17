@@ -1,1 +1,4 @@
-# nkd1905.github.io
+To update packages
+```
+dpkg-scanpackages -m ./debs > Packages && gzip -c Packages > Packages.gz
+```
